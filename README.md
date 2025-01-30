@@ -53,5 +53,4 @@ wind-turbine-abm/
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/wind-turbine-abm
+David Galfi - galfidavid314@gmail.com

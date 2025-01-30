@@ -22,21 +22,25 @@ Wind Turbine ABM is a SaaS platform that simulates wind farm layouts and energy 
 - **Visualization**: Mesa's built-in visualization server
 
 ## Quick Start
-# Clone the repository
+### Clone the repository
+```
 git clone https://github.com/yourusername/wind-turbine-abm.git
 cd wind-turbine-abm
-
-# Create and activate virtual environment
+```
+### Create and activate virtual environment
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-# Install dependencies
-pip install -r requirements.txt
+### Install dependencies
+```pip install -r requirements.txt```
 
-# Run the application
-python app.py
+### Run the application
+```python app.py```
 
 ## Project Structure
+```
 wind-turbine-abm/
 ├── app/
 │   ├── __init__.py
@@ -48,6 +52,7 @@ wind-turbine-abm/
 ├── requirements.txt
 ├── config.py
 └── run.py
+```
 
 ## License
 Distributed under the MIT License. See `LICENSE` for more information.

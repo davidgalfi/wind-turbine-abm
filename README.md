@@ -42,15 +42,34 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ## Project Structure
 ```
 wind-turbine-abm/
+wind-turbine-abm/
 ├── app/
 │   ├── __init__.py
 │   ├── auth/
+│   │   ├── __init__.py
+│   │   ├── forms.py
+│   │   └── routes.py
 │   ├── models/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   │   └── turbine_agent.py
 │   ├── simulation/
-│   └── templates/
-├── tests/
-├── requirements.txt
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── templates/
+│   │   ├── auth/
+│   │   │   ├── login.html
+│   │   │   └── register.html
+│   │   ├── base.html
+│   │   ├── dashboard.html
+│   │   └── simulation.html
+│   └── static/
+│       ├── css/
+│       │   └── style.css
+│       └── js/
+│           └── simulation.js
 ├── config.py
+├── requirements.txt
 └── run.py
 ```
 

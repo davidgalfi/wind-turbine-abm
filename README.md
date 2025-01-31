@@ -42,7 +42,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ## Project Structure
 ```
 wind-turbine-abm/
-wind-turbine-abm/
 ├── app/
 │   ├── __init__.py
 │   ├── auth/
